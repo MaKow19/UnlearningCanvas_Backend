@@ -12,7 +12,7 @@ import java.util.Optional;
 
 @RestController
 @RequestMapping(value={"api/about", "api/canvas"})
-@CrossOrigin(origins = "https://localhost:5173")
+@CrossOrigin(origins = "https://unlearning-canvas.netlify.app")
 public class SessionController {
 
     @Autowired
