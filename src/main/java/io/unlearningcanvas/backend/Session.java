@@ -17,7 +17,6 @@ public class Session {
     private List<String> feld6;
     private List<String> feld7;
 
-    // Getter und Setter
     public String getId() {
         return _id;
     }
